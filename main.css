@@ -1,0 +1,34 @@
+
+.wrapper{
+    font-family: arial, sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+}
+
+
+#time{
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+
+button {
+    padding: 20px 0;
+    font-size: 30px;
+    display: inline-block;
+    padding: .8rem 1.6rem;
+    border: none;
+    color: #FFF;
+    background-color: #6B8E23;
+    border-radius: 15px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #8FBC8F;
+}
+button:disabled {
+    cursor: default;
+    background-color: #8FBC8F;
+}
